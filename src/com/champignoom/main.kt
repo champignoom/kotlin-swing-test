@@ -2,7 +2,6 @@
 
 package com.champignoom
 
-import java.awt.EventQueue
 import javax.swing.JFrame
 
 class KotlinSwingExample(title: String): JFrame() {
@@ -19,6 +18,6 @@ private fun createAndShowGUI() {
     frame.isVisible = true
 }
 
-fun main() {
-    EventQueue.invokeLater(::createAndShowGUI)
-}
+//fun main() {
+//    EventQueue.invokeLater(::createAndShowGUI)
+//}
